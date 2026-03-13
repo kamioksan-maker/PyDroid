@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PyDroid</string>
+    <string name="title_editor">代码编辑器</string>
+    <string name="title_file_browser">文件浏览器</string>
+    <string name="title_history">运行历史</string>
+    <string name="title_settings">设置</string>
+    <string name="action_new_script">新建脚本</string>
+    <string name="action_run">运行</string>
+    <string name="action_stop">停止</string>
+    <string name="action_save">保存</string>
+    <string name="action_delete">删除</string>
+    <string name="action_rename">重命名</string>
+    <string name="hint_script_name">脚本名称</string>
+    <string name="hint_code_editor">在此输入 Python 代码...</string>
+    <string name="label_output">输出</string>
+    <string name="label_console">控制台</string>
+    <string name="label_packages">包管理</string>
+    <string name="label_install">安装</string>
+    <string name="label_uninstall">卸载</string>
+    <string name="msg_running">正在运行...</string>
+    <string name="msg_completed">执行完成</string>
+    <string name="msg_error">执行错误</string>
+    <string name="msg_stopped">已停止</string>
+    <string name="msg_saved">已保存</string>
+    <string name="msg_deleted">已删除</string>
+    <string name="msg_no_scripts">暂无脚本，点击右上角新建</string>
+    <string name="msg_confirm_delete">确定要删除此脚本吗？</string>
+    <string name="msg_package_installed">包安装成功</string>
+    <string name="msg_package_install_failed">包安装失败</string>
+</resources>
