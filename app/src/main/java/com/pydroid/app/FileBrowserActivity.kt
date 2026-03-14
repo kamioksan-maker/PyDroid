@@ -5,7 +5,6 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.RecyclerView
@@ -123,8 +122,9 @@ class FileBrowserActivity : AppCompatActivity() {
             .show()
     }
 
+    @Suppress("UNUSED_PARAMETER")
     private fun shareFile(file: File) {
-        Toast.makeText(this, "暂未实现分享：${file.name}", Toast.LENGTH_SHORT).show()
+        // TODO: 实现文件分享功能
     }
 
     data class FileItem(val file: File, val isDirectory: Boolean)
