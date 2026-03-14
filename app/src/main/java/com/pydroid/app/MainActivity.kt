@@ -8,6 +8,7 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
@@ -156,6 +157,15 @@ print(f"平均值：{np.mean(arr)}")
         scriptFile.writeText("# $name\n# 创建时间：${System.currentTimeMillis()}\n\n")
         Snackbar.make(fabNew, "脚本创建成功", Snackbar.LENGTH_SHORT).show()
         loadScripts()
+    }
+
+    private fun showPackageDialog() {
+        val packages = arrayOf("numpy", "requests", "pillow", "matplotlib")
+        AlertDialog.Builder(this)
+            .setTitle("已安装的包")
+            .setItems(packages, null)
+            .setPositiveButton("关闭", null)
+            .show()
     }
 
     private fun openEditor(script: ScriptItem) {
