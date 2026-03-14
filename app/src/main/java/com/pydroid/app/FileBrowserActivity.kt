@@ -74,7 +74,7 @@ class FileBrowserActivity : AppCompatActivity() {
                     0 -> viewFile(file)
                     1 -> renameFile(file)
                     2 -> deleteFile(file)
-                    3 -> shareFile(file)
+                    3 -> shareFile()
                 }
             }
             .show()
@@ -122,8 +122,7 @@ class FileBrowserActivity : AppCompatActivity() {
             .show()
     }
 
-    @Suppress("UNUSED_PARAMETER")
-    private fun shareFile(file: File) {
+    private fun shareFile() {
         // TODO: 实现文件分享功能
     }
 
